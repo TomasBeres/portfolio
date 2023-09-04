@@ -126,17 +126,21 @@ padding-left: 30%;
  display: flex;
  align-items: center;
  justify-content: center;
+ overflow: hidden;
 
+}
+.video-overlay:hover{
+  opacity: 1;
 }
 .youtube-content video{
-  
+  display: block;
   height: 80vh;
   position: relative;
-  display: flex;
-}
-.youtube-content:hover{
 
 }
+
+
+
 .galery{
   display:flex;
  align-items:center;
