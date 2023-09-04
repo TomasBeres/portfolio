@@ -116,26 +116,39 @@ padding-left: 30%;
   align-items:center;
   text-align: center;
   min-height: 80vh;
-  background-color: #cdb2ff;
+
 }
 .youtube-content
 {
  width: 100%;
  height: 80vh;
-  border: 1px solid red;
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.youtube-content video{
+  
+  height: 80vh;
+  position: relative;
+  display: flex;
+}
+.youtube-content:hover{
+
 }
 .galery{
   display:flex;
  align-items:center;
  text-align: center;
  min-height: 80vh;
- background-color: #ac7fff;
+
 }
 .galery-content
 {
  width: 100%;
  height: 80vh;
-  border: 1px solid red;
+
 }
   .social-media a{
     display: inline-flex;
